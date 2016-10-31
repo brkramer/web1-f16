@@ -1,0 +1,22 @@
+https://bchelseab.github.io/web1-f16-student/hw-2/hw2.html
+
+Chelsea's Event Promotion Page
+
+
+Use Cases:
+- I want to find out where the event is taking place.
+
+- I want to find out when the event is happening
+
+- what type of food will there be at the event?
+
+- I want to promote my shrimp products during the event.
+
+
+
+
+
+* Document steps to achieve:
+- I want to find out where the event is taking place.
+* start reading page, found out Boston, MA.
+* Found where section, read address.

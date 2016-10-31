@@ -12,8 +12,16 @@
 
 <body>
 	<h1>A Cat with an Extra Cat</h1>
+	
+	<p>
+		Specifying alternative images using srcset attribute on img element.
+	</p>
 
-	<img class="cat" src="images/cat_300w.jpg" srcset="images/cat_300w.jpg 300w, images/cat_600w.jpg 600w">
+	<img class="cat" src="images/cat_300w.jpg" srcset="images/cat_300w.jpg 1x, images/cat_600w.jpg 3x">
+
+	<p>
+		See <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#Example_3_Using_the_srcset_attribute">Mozilla img docs</a>, or for more explanation <a href="http://ericportis.com/posts/2014/srcset-sizes/">Eric Portis's “Srcset and sizes”</a> article.
+	</p>
 
 </body>
 
