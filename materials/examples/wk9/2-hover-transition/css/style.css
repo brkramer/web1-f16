@@ -1,0 +1,31 @@
+/*////////////////////////////
+/
+/
+/
+/   General, whole page
+/
+/
+/
+////////////////////////////*/
+body {
+	margin: 0.75em 1em 2em 4em;
+}
+a {
+	text-decoration: none;
+	font-weight: bold;
+	color: #333;
+	/* transition from source color
+	 * to destination color on state change */
+	transition: all 0.15s ease;
+	
+	/* or to just transition the bottom border
+	 * use this instead: */
+	/*transition: border-bottom 0.5s ease;*/
+}
+a.crazy {
+	transition: all 2s ease;
+}
+a:hover {
+	border-bottom: solid 4px red;
+	color: red;
+}
