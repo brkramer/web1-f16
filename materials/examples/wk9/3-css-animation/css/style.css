@@ -1,0 +1,43 @@
+/*////////////////////////////
+/
+/
+/
+/   General, whole page
+/
+/
+/
+////////////////////////////*/
+body {
+	margin: 0.75em 1em 2em 4em;
+}
+
+
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   Animations
+/
+/
+/
+////////////////////////////*/
+/* ref: http://codepen.io/team/css-tricks/pen/ZGYZBx */
+#square {
+	border: solid 5px black;
+  width: 20em;
+  height: 8em;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}

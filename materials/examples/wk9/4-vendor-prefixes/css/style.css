@@ -1,0 +1,57 @@
+/*////////////////////////////
+/
+/
+/
+/   General, whole page
+/
+/
+/
+////////////////////////////*/
+body {
+	margin: 0.75em 1em 2em 4em;
+}
+
+
+
+
+
+
+/*////////////////////////////
+/
+/
+/
+/   Animations
+/
+/
+/
+////////////////////////////*/
+/* ref: http://codepen.io/team/css-tricks/pen/ZGYZBx
+ * https://css-tricks.com/snippets/css/keyframe-animation-syntax/
+ */
+#square {
+	border: solid 5px black;
+  width: 20em;
+  height: 8em;
+	
+	-webkit-animation: pulse 5s infinite; /* Safari 4+ */
+	-moz-animation:    pulse 5s infinite; /* Fx 5+ */
+	-o-animation:      pulse 5s infinite; /* Opera 12+ */
+	animation:         pulse 5s infinite; /* IE 10+, Fx 29+ */
+}
+
+@-webkit-keyframes pulse {
+	0% { background-color: #001F3F; }
+  100% { background-color: #FF4136; }
+}
+@-moz-keyframes pulse {
+	0% { background-color: #001F3F; }
+  100% { background-color: #FF4136; }
+}
+@-o-keyframes pulse {
+	0% { background-color: #001F3F; }
+  100% { background-color: #FF4136; }
+}
+@keyframes pulse {
+	0% { background-color: #001F3F; }
+  100% { background-color: #FF4136; }
+}
