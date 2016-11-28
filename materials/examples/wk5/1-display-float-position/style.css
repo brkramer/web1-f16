@@ -20,7 +20,7 @@
 ////////////////////////////*/
 /* center entire page */
 body {
-	/*max-width: 600px;
+/*	max-width: 600px;
 	margin: 1em auto;*/
 }
 img {
@@ -39,14 +39,14 @@ img {
  * then pull the logo back left with a negative margin
 */
 body {
-	/*padding-left: 100px;
+/*	padding-left: 100px;
 	max-width: 44em;*/
 }
 #logo {
 	/* first everything has been pushed 100px with body padding
 	 * then will pull, just the logo, back that same amount
 	 */
-	/*margin-left: -100px;
+/*	margin-left: -100px;
 	margin-top: 0;*/
 	
 	/* try	margin-left: -120px; to crop some of the logo */
@@ -90,14 +90,17 @@ body {
 / http://stackoverflow.com/questions/9189810/css-display-inline-vs-inline-block
 /
 ////////////////////////////*/
+nav {
+	text-align: center;
+}
 nav ul {
 	padding: 0;
 }
 nav li {
 	margin-right: 2em;
 	/* by default li are display: list-item */
-	/*display: inline;*/
-}
+/*	display: inline;
+*/}
 
 
 /* inline elements will line up horizontally as many as can fit */
@@ -191,7 +194,7 @@ h2 {
 /
 ////////////////////////////*/
 #page-name {
-	 /*position: relative;
+/*	 position: relative;
 	 left: 15px;
 	 top: -70px;
 	 color: white;*/
@@ -234,7 +237,7 @@ h2 {
 	/*position: absolute;
 	margin: 0;
 	right: 0; top: 0;*/
-} 
+}
  
 /* we could guard against this potential overlap by only moving our logo
  * when we know there will be enough room, IE with a media query */
@@ -294,7 +297,7 @@ h2 {
  * always leave enough padding on the body, by adding padding
  * to the side we are afixing something
 */
-/*body {
+body {
 	padding-top: 44px;
 }
 nav {
@@ -316,8 +319,8 @@ nav a {
 }
 nav a:hover {
 	color: white;
-	text-decoration: underline;	
-}*/
+	text-decoration: underline;
+}
 
 
 
